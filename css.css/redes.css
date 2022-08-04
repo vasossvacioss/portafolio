@@ -1,0 +1,49 @@
+
+#piedepagina{
+    margin-top: 40px;
+    background-color: #1c9970;
+    border: solid black 2px;
+    
+}
+  
+.footer-col h4 {
+    margin:30px;
+    font-size: 40px;
+}
+.footer-col{
+    margin:100px;
+}
+#piedepagina li a{
+    color: #e9e9e9;
+    margin: 40px;
+  }
+  #piedepagina li {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+
+
+li:hover.bi-facebook{
+    border:5px solid #3b5998;
+    box-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+
+li:hover .bi-facebook {
+    color:#3b5998;
+    text-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+
+li:hover.bi-telegram{
+    border:5px solid #3b5998;
+    box-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+
+li:hover .bi-telegram {
+    color:#23aaea;
+    text-shadow: 0 0 15px white;
+    transition: all 0.5s ease;
+}
